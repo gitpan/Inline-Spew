@@ -20,7 +20,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub register {
   return {
@@ -254,6 +254,36 @@ The name of the subroutine defined by the inline invocation.  Default
 is C<spew> in the current package.  A name without colons is presumed
 to be in the current package.  A name with colons provides an absolute
 path.
+
+=back
+
+=head2 METHODS
+
+=over 4
+
+=item validate
+
+Part of the Inline interface.
+
+=item build
+
+Part of the Inline interface.
+
+=item spew_show
+
+Part of the Inline interface.
+
+=item load
+
+Part of the Inline interface.
+
+=item register
+
+Part of the Inline interface.
+
+=item spew_compile
+
+Part of the Inline interface.
 
 =back
 
